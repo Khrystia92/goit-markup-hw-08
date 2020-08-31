@@ -85,6 +85,9 @@
   font-family: Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .subtitle, .subtitle-box, .footer-subtitle {
@@ -534,16 +537,6 @@ img {
   display: block;
 }
 
-h2 {
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
-h3 {
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-
 .header {
   line-height: normal;
   border-bottom: 1px solid #ECECEC;
@@ -820,7 +813,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
     padding-top: 200px;
@@ -829,7 +822,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 1140px) and (min-device-pixel-ratio: 2), screen and (min-width: 1140px) and (min-resolution: 192dpi), screen and (min-width: 1140px) and (min-resolution: 2dppx), screen and (min-width: 1140px) and (min-width: 1140px) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx), screen and (min-width: 1200px) and (min-width: 1140px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/desk-header@2x.jpg");
   }
@@ -837,6 +830,7 @@ h3 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    margin-bottom: 30px;
   }
 }
 
@@ -910,6 +904,12 @@ h3 {
   }
   .features:nth-child(4n) {
     margin-right: 0;
+  }
+  .subtitle {
+    margin-top: 30px;
+  }
+  .description {
+    margin-top: 10px;
   }
 }
 
