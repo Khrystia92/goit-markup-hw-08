@@ -1,0 +1,31 @@
+@media screen and (max-width: 1199px) {
+.our-work {
+        display: none;
+    }
+}
+@media screen and (min-width:1200px) {
+  .doing-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;  
+  }
+  .doing-list-box {
+  position: relative;
+  margin-right: 30px;
+  }
+  .subtitle-box {
+    position: absolute;
+    margin-bottom: 0px;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $title-dark-theme-color;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}

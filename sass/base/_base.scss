@@ -1,0 +1,27 @@
+body {
+    font-family: $main-font;
+    font-size: 14px;
+    background-color: $title-dark-theme-color;
+    color: $main-text-color;
+    margin: 0;  
+}
+.link {
+    text-decoration: none;
+    display: block;
+}
+.list {
+    list-style:none;
+}
+img {
+    display: block;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+h3 {
+    margin-top: 0px;
+        margin-bottom: 10px;
+}
+
+   
