@@ -50,6 +50,9 @@
  {
      fill: $title-dark-theme-color;
  }
+ .our-team-subtitle {
+        padding-top: 60px;
+    }
 @media screen and (max-width:767px){
 .team-item {    
     margin-left: auto;
@@ -71,6 +74,7 @@ width: 100%;
     flex-wrap: wrap;
     padding-left: 0px;
     }
+    
 .our-team-img {
     margin-bottom: 30px;
     }

@@ -32,6 +32,9 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 .client-icon:focus .client-icon-item-svg {
     fill: $aksent-color;
 }
+.our-clients-subtitle {
+  padding-top: 60px;
+}
 @media screen and (max-width: 767px) {
     .client-icon {
       width: calc((100% - 30px) / 2);
@@ -46,7 +49,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .client-icon {
+      .client-icon {
       width: calc((100% - 60px) / 3);
   
       &:not(:nth-last-child(-n + 3)) {

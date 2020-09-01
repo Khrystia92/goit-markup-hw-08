@@ -1,5 +1,5 @@
 .footer {
-    background: #2F303A;   
+    background: #2F303A;
 }
 .logotype {
 margin-bottom: 20px;
@@ -101,23 +101,31 @@ border: $aksent-color;
   margin-bottom: 8px;
 }
 .footer-subscribe { 
-    margin-bottom: 60px;
-}
-.footer-subtitle-subtitle, .footer-form {
-   margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    justify-content: center;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  margin-bottom: 60px;
 }
 .footer-icons {
   margin-top: 20px;
 }
-.footer-form-field {
-  margin-top: 20px;
+.footer-subtitle-subtitle {
+  display: flex; 
+    align-items: center;
+    justify-content: center;
+      flex-direction: column;
+  }
+.footer-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-      width: 100%;
-    }
+}
+.footer-form-field {
+  margin-top: 20px;
+  }
  
   }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -140,14 +148,7 @@ text-align: center;
     .footer-subtitle {
       margin-bottom: 20px;
     }
-  }
-  
-   
-  @media screen and (max-width: 1199px) and (min-width: 768px) {
-    .footer-logo {
-      flex-basis: 50%;
-    }
-    .footer-subtitle-subtitle {
+     .footer-subtitle-subtitle {
       display: flex;
       flex-basis: 100%;
       flex-direction: column;
@@ -167,27 +168,28 @@ text-align: center;
   }
   
   @media screen and (min-width: 1200px) {
-    .footer-subtitle-subtitle {
-      flex-basis: 50%;
-    }
-      .footer-logo {
-      flex-basis: 25%;
-      margin-right: 30px;
-    }
-    .address, .footer-mailto {
-      margin-bottom: 9px;
-      }
-      .footer-subscribe {
-      flex-basis: 25%;
-      margin-right: 30px;
-    }
-    .footer-button {
+    .footer .container {
       display: flex;
     }
-    .footer-form {
-      display: flex;
-    }
-     .form-form-field {
-      margin-right: 12px;
-    }
+    .footer-logo {
+      margin-right: 65px;
+      padding-top: 60px;
+      padding-bottom: 60px;
   }
+  .footer-subscribe {
+    margin-right: 94px;
+    padding-top: 72px;
+       }
+     .footer-subtitle-subtitle {
+     padding-top: 72px;   
+     } 
+     .footer-form {
+      display: flex;
+      
+      margin-top: 20px;
+  }
+  .footer-form-field {
+    margin-right: 10px;
+    width: 358px;
+  }
+     }

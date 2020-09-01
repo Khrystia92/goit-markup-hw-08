@@ -779,6 +779,10 @@ img {
   }
 }
 
+.hero {
+  margin-bottom: 60px;
+}
+
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -1019,6 +1023,10 @@ img {
   fill: #FFFFFF;
 }
 
+.our-team-subtitle {
+  padding-top: 60px;
+}
+
 @media screen and (max-width: 767px) {
   .team-item {
     margin-left: auto;
@@ -1085,7 +1093,6 @@ img {
 
 .client-icon-item {
   display: flex;
-  min-width: 170px;
   height: 90px;
   justify-content: center;
   align-items: center;
@@ -1110,6 +1117,10 @@ img {
 .client-icon:hover .client-icon-item-svg,
 .client-icon:focus .client-icon-item-svg {
   fill: #2196F3;
+}
+
+.our-clients-subtitle {
+  padding-top: 60px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1261,22 +1272,30 @@ img {
     margin-bottom: 8px;
   }
   .footer-subscribe {
-    margin-bottom: 60px;
-  }
-  .footer-subtitle-subtitle, .footer-form {
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
   }
   .footer-icons {
     margin-top: 20px;
   }
-  .footer-form-field {
-    margin-top: 20px;
+  .footer-subtitle-subtitle {
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+  }
+  .footer-form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-form-field {
+    margin-top: 20px;
   }
 }
 
@@ -1300,12 +1319,6 @@ img {
   .footer-subtitle {
     margin-bottom: 20px;
   }
-}
-
-@media screen and (max-width: 1199px) and (min-width: 768px) {
-  .footer-logo {
-    flex-basis: 50%;
-  }
   .footer-subtitle-subtitle {
     display: flex;
     flex-basis: 100%;
@@ -1326,28 +1339,28 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-subtitle-subtitle {
-    flex-basis: 50%;
+  .footer .container {
+    display: flex;
   }
   .footer-logo {
-    flex-basis: 25%;
-    margin-right: 30px;
-  }
-  .address, .footer-mailto {
-    margin-bottom: 9px;
+    margin-right: 65px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .footer-subscribe {
-    flex-basis: 25%;
-    margin-right: 30px;
+    margin-right: 94px;
+    padding-top: 72px;
   }
-  .footer-button {
-    display: flex;
+  .footer-subtitle-subtitle {
+    padding-top: 72px;
   }
   .footer-form {
     display: flex;
+    margin-top: 20px;
   }
-  .form-form-field {
-    margin-right: 12px;
+  .footer-form-field {
+    margin-right: 10px;
+    width: 358px;
   }
 }
 
@@ -1486,7 +1499,6 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 370px;
-    height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-bottom-right-radius: 5px;
@@ -1501,6 +1513,7 @@ img {
   }
   .description-portfolio {
     padding-left: 24px;
+    margin-bottom: 20px;
   }
   .portfolio-img {
     width: 100%;
