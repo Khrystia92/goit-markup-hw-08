@@ -5,11 +5,7 @@
 margin-bottom: 20px;
 color: $title-dark-theme-color;
 }
-.address {
-  margin-bottom: 9px;
-  }
   .footer-mailto{
-  margin-bottom: 9px;
   &:hover,
   &:focus {
   color: $aksent-color;
@@ -92,17 +88,31 @@ border: $aksent-color;
     padding-top: 60px;
 }
 @media screen and (max-width: 767px) {
+.footer-logo{
+  margin-right: 109px;
+  margin-left: 109px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.address, .footer-mailto {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.footer-subscribe 
+{
+  margin-right: 122px;
+  margin-left: 122px;
+  margin-bottom: 60px;
+}
 .footer-subtitle {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 20px;
+  padding-left: 30px;  
+  text-align: center;
 }
 .footer-form-field {
       width: 100%;
     }
   }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer .container {
    display:flex;
    flex-wrap: wrap;
@@ -155,6 +165,9 @@ margin-bottom: 20px;
       flex-basis: 25%;
       margin-right: 30px;
     }
+    .address, .footer-mailto {
+      margin-bottom: 9px;
+      }
       .footer-subscribe {
       flex-basis: 25%;
       margin-right: 30px;
