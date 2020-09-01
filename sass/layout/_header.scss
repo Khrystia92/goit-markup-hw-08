@@ -170,7 +170,7 @@ margin-right: 84px;
         }
   }
   
-@media screen and (max-width: 1199px) and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px)  {
     .header .container {
       justify-content: space-between;
     }
@@ -190,7 +190,7 @@ margin-right: 84px;
 @media screen and (min-width: 1200px) {
     .header {
       display: flex;
-      
+           
     }
      .logo {
       margin-right: 85px;
@@ -208,6 +208,8 @@ margin-right: 84px;
       display: flex;
       align-items: center;
       margin-left: 200px;
+      margin-top: 0px;
+      margin-bottom: 0px;
         
     }
     .header-address-list:not(:last-child) {

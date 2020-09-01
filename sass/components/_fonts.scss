@@ -177,6 +177,13 @@ line-height: 1.17;
 letter-spacing: 0.02em;
 }
     }
+    @media screen and (min-width: 1200px) {
+        .section-subtitle {
+font-size: 36px;
+line-height: 1.67;
+        }
+    }
+    
 
 
 /*Portfolio*/
