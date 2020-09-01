@@ -55,7 +55,6 @@ color: $title-dark-theme-color;
     outline: none;
     margin-bottom: 20px;
     padding-top: 15px;
-    width: 434px;
     padding-left: 16px;
     padding-bottom: 15px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -119,14 +118,14 @@ border: $aksent-color;
       flex-direction: column;
   }
 .footer-form {
-  width: 100%;
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .footer-form-field {
   margin-top: 20px;
+  width: 100%;
   }
  
   }
@@ -161,11 +160,9 @@ text-align: center;
       flex-direction: column;
       align-items: center;
     }
-    .form-form-field {
-      width: 450px;
-    }
-    .form-form-field {
-      margin-bottom: 20px;
+    .footer-form-field {
+    width: 450px;
+     margin-bottom: 20px;
     }
   }
   

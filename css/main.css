@@ -781,6 +781,8 @@ img {
 
 .hero {
   margin-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -804,8 +806,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .hero {
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 118px;
     padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../images/mob-header.jpg");
@@ -1223,7 +1223,6 @@ img {
   outline: none;
   margin-bottom: 20px;
   padding-top: 15px;
-  width: 434px;
   padding-left: 16px;
   padding-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1291,7 +1290,6 @@ img {
     flex-direction: column;
   }
   .footer-form {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1299,6 +1297,7 @@ img {
   }
   .footer-form-field {
     margin-top: 20px;
+    width: 100%;
   }
 }
 
@@ -1333,10 +1332,8 @@ img {
     flex-direction: column;
     align-items: center;
   }
-  .form-form-field {
+  .footer-form-field {
     width: 450px;
-  }
-  .form-form-field {
     margin-bottom: 20px;
   }
 }
