@@ -52,6 +52,7 @@ color: $title-dark-theme-color;
    height: 20px;
   }
   .footer-form-field {
+    outline: none;
     margin-bottom: 20px;
     padding-top: 15px;
     width: 434px;
@@ -62,6 +63,7 @@ color: $title-dark-theme-color;
     background-color: #2F303A;
    }
 .footer-button {
+  outline: none;
 display: inline-flex;
 padding-top: 10px;
 padding-bottom: 10px;
