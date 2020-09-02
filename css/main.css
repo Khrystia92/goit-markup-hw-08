@@ -460,6 +460,7 @@
 }
 
 .modal-form-link, .modal-form-text-agree {
+  font-family: Roboto, sans-serif;
   font-size: 12px;
   line-height: 1.67;
   margin-left: 4px;
